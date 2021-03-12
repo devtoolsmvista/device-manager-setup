@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: fuse-test
-        image: yufenkuo/test:v7
+        image: yufenkuo/test:v8
         securityContext:
           privileged: false
           capabilities:
